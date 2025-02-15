@@ -1,0 +1,97 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    background: linear-gradient(135deg, #1a3c63, #4e085f); /* Background gradient */
+}
+
+.container {
+    width: 100%;
+    padding: 10px;
+}
+
+.edit{
+    width: 50%;
+}
+/* Edit Form styling */
+.edit form {
+    
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.edit button {
+    border: none;
+    outline: none;
+    padding: 12px 40px;
+    background-color: #2f3c46;  /* Darker shade for buttons */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+
+
+/* Input container styling */
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #2f3c46;  /* Button color */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #1a2b32;  /* Slightly darker shade on hover */
+}
+
+table a:hover {
+    color: #1a2b32; /* Darker shade for links on hover */
+}
+
+/* Additional styling for better spacing */
+.input-container {
+    margin-bottom: 20px;
+}
+
+.edit button {
+    margin-top: 10px;
+    width: 100%;
+}
